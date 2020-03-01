@@ -1,0 +1,25 @@
+{
+  "name": "pos",
+  "version": "1.0.0",
+  "description": "Point Of Sales System for Restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bernard Johnson III",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "knex": "^0.20.10",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.1.1"
+  }
+}
